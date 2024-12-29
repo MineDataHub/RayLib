@@ -1,0 +1,6 @@
+{
+	"pack": {
+		"pack_format": 61,
+		"description": "A library with a bunch of raycasting features for datapack developers.\nMade by DTHub team"
+	}
+}
