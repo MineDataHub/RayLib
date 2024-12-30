@@ -1,0 +1,1 @@
+execute as @e[tag = Aim] at @s run function raylib:aim/tick
