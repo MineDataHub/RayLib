@@ -1,2 +1,0 @@
-scoreboard players set RaySteps GlobalData 50
-$execute rotated ~-$(AngleX) ~-$(AngleY) rotated ~$(RotationX) ~$(RotationY) rotated ~$(HalfRotationX) ~$(HalfRotationY) run return run function raylib:raytracing/raycast/main

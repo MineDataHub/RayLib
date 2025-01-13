@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^ as @e[tag = Display, sort=random,limit=40] store result entity @s data.b float 0.02 run function raylib:raytracing/rotate/start_y
