@@ -1,0 +1,1 @@
+$data modify entity @n[tag=displayStr$(num)] text set value '$(displayStr)'

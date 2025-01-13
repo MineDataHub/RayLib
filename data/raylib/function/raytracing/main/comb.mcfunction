@@ -1,0 +1,1 @@
+$data modify storage dthub:raylib color set value "#$(s1)$(s2)$(s1)$(s2)$(s1)$(s2)"
