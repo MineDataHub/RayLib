@@ -1,0 +1,1 @@
+return run execute unless score .x GlobalData matches 1 unless score .z GlobalData matches 1

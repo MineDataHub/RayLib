@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:saplings",
+    "#minecraft:leaves",
+    "#minecraft:small_flowers",
+    "#raylib:natura/double_plants",
+    "minecraft:hay_block",
+    "#raylib:natura/plants_block",
+    "#raylib:natura/plants",
+    "#raylib:natura/water_plants",
+		"minecraft:grass",
+		"minecraft:fern"
+  ]
+}

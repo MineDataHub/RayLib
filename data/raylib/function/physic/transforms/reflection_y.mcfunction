@@ -1,0 +1,1 @@
+execute store result score .y GlobalData unless score .y GlobalData matches 1

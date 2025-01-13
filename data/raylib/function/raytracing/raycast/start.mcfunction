@@ -1,0 +1,3 @@
+#$execute as @e[tag = Display] store result entity @s data.RotateStep double 0.001 run function raylib:raytracing/raycast/calc_angle_x {Angle:$(AngleX)}
+#$execute as @e[tag = Display] store result entity @s data.RotateStep double 0.001 run function raylib:raytracing/raycast/calc_angle_y {Angle:$(AngleY)}
+execute anchored eyes positioned ^ ^ ^ as @e[tag = Display, sort=random,limit=40] store result entity @s data.b float 0.02 run function raylib:raytracing/rotating/start_y
