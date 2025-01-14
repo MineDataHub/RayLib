@@ -15,7 +15,7 @@ data modify storage dthub:raylib s2 set from storage dthub:raylib symbol
 function raylib:raytracing/main/set_color with storage dthub:raylib
 function raylib:raytracing/main/append_pixel with storage dthub:raylib
 
-execute if score DisplayWidthPersistent GlobalData = DisplayWidth GlobalData run function raylib:raytracing/up
+execute if score DisplayWidthPersistent GlobalData >= DisplayWidth GlobalData run function raylib:raytracing/up
 
 execute if score recursion GlobalData matches 10000.. run return 0 
 
