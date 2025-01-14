@@ -17,7 +17,7 @@ function raylib:raytracing/main/append_pixel with storage dthub:raylib
 
 execute if score DisplayWidthPersistent GlobalData >= DisplayWidth GlobalData run function raylib:raytracing/up
 
-execute if score recursion GlobalData matches 10000.. run return 0 
+execute if score recursion GlobalData matches 5000.. run return 0 
 
 execute if score DisplayWidthPersistent GlobalData <= DisplayWidth GlobalData run return run function raylib:raytracing/loop
 
