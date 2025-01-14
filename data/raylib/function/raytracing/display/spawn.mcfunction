@@ -7,6 +7,4 @@ execute rotated ~ 0 anchored eyes positioned ^ ^1 ^0.6 run function raylib:raytr
 $scoreboard players set DisplayWidth GlobalData $(Width)
 $scoreboard players set DisplayHeight GlobalData $(Height)
 $scoreboard players set DisplayWidthPersistent GlobalData $(Height)
-scoreboard players remove DisplayWidthPersistent GlobalData 1
 $scoreboard players set DisplayHeightPersistent GlobalData $(Height)
-scoreboard players remove DisplayHeightPersistent GlobalData 1

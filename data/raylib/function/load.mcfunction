@@ -9,5 +9,6 @@ scoreboard players set #16 const 16
 scoreboard players set #10 const 10
 scoreboard players set #4 const 4
 scoreboard players set #2 const 2
+scoreboard players set #-1 const -1
 
 data modify storage dthub:raylib hex set value ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"]

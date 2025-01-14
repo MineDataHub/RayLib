@@ -1,1 +1,2 @@
-function raylib:raytracing/main/set_display with storage dthub:raylib
+scoreboard players set RaySteps GlobalData 1000000000
+function raylib:raytracing/main/raycast

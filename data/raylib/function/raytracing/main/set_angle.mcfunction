@@ -1,2 +1,2 @@
-$execute store result storage dthub:raylib RayTracing.RotateStepX double 0.001 run function raylib:raytracing/main/calc_angle_x {Angle:$(AngleX)}
-$execute store result storage dthub:raylib RayTracing.RotateStepY double 0.001 run function raylib:raytracing/main/calc_angle_y {Angle:$(AngleY)}
+$execute store result storage dthub:raylib RayTracing.RotateStepX double 0.001 run function raylib:raytracing/main/set_angle/calc_angle_x {Angle:$(AngleX)}
+$execute store result storage dthub:raylib RayTracing.RotateStepY double 0.001 run function raylib:raytracing/main/set_angle/calc_angle_y {Angle:$(AngleY)}

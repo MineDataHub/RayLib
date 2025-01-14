@@ -1,2 +1,2 @@
-scoreboard players set RaySteps GlobalData 63
-$execute rotated ~-$(AngleX) ~-$(AngleY) rotated ~$(RotationX) ~$(RotationY) rotated ~$(HalfStepX) ~$(HalfStepY) run return run function raylib:raytracing/main/raycast
+scoreboard players set RaySteps GlobalData 511
+$execute rotated ~-$(AngleX) ~-$(AngleY) rotated ~$(RotationX) ~$(RotationY) rotated ~$(HalfStepX) ~$(HalfStepY) run function raylib:raytracing/main/raycast
