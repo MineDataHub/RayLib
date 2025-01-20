@@ -1,0 +1,8 @@
+{
+    "values": [
+        "#raylib:air",
+        "#buttons",
+        "minecraft:redstone_wire",
+        "minecraft:glass"
+    ]
+}

@@ -3,6 +3,9 @@ scoreboard objectives add trail dummy
 scoreboard objectives add const dummy
 scoreboard objectives add raylib.math dummy
 scoreboard objectives add use minecraft.used:minecraft.carrot_on_a_stick
+scoreboard players set #1000 const 1000
+scoreboard players set #510 const 510
+scoreboard players set #255 const 255
 scoreboard players set #100 const 100
 scoreboard players set #50 const 50
 scoreboard players set #16 const 16
