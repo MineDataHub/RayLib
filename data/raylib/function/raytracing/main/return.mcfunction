@@ -1,6 +1,6 @@
 data modify storage dthub:raylib RayTracing.RGB set value [255, 255, 255]
 #execute if block ~ ~ ~ air run data modify storage dthub:raylib RayTracing.RGB set value [159, 210, 237]
-execute if block ~ ~ ~ air run data modify storage dthub:raylib RayTracing.RGB set value [16, 5, 38]
+execute if block ~ ~ ~ air run data modify storage dthub:raylib RayTracing.RGB set value [158, 226, 232]
 execute if block ~ ~ ~ stone run data modify storage dthub:raylib RayTracing.RGB set value [150, 150, 150]
 execute if block ~ ~ ~ #minecraft:wooden_fences run data modify storage dthub:raylib RayTracing.RGB set value [209, 139, 86]
 execute if block ~ ~ ~ #minecraft:wooden_stairs run data modify storage dthub:raylib RayTracing.RGB set value [209, 139, 86]
@@ -11,6 +11,9 @@ execute if block ~ ~ ~ lapis_block run data modify storage dthub:raylib RayTraci
 execute if block ~ ~ ~ emerald_block run data modify storage dthub:raylib RayTracing.RGB set value [0, 255, 0]
 execute if block ~ ~ ~ command_block run data modify storage dthub:raylib RayTracing.RGB set value [235, 155, 89]
 execute if block ~ ~ ~ repeating_command_block run data modify storage dthub:raylib RayTracing.RGB set value [200, 109, 214]
+execute if block ~ ~ ~ grass_block run data modify storage dthub:raylib RayTracing.RGB set value [0, 255, 0]
+execute if block ~ ~ ~ dirt_path run data modify storage dthub:raylib RayTracing.RGB set value [163, 132, 38]
+
 
 execute if block ~ ~0.1 ~ redstone_wire run data modify storage dthub:raylib RayTracing.RGB set value [255, 0, 0]
 

@@ -1,0 +1,1 @@
+function raylib:optimized_high_distance_raycasting/move/start

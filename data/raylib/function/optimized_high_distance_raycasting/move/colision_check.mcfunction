@@ -1,0 +1,2 @@
+execute as @e[dx=0,type=!marker,limit=1,tag=!origin] positioned ~-.99 ~-.99 ~-.99 if entity @s[dx=0] run return run function raylib:optimized_high_distance_raycasting/damage
+execute unless block ~ ~ ~ #raylib:run run return 1
